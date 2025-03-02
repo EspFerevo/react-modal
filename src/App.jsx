@@ -23,8 +23,8 @@ function App() {
       </main>
 
       <Modal active={modalActive} setActive={setModalActive}>
-        <h2>Modal Window</h2>
-        <p>This is a modal content.</p>
+        <h2 className="h2">Modal Window</h2>
+        <p className="p">This is a modal content.</p>
         <button onClick={() => setModalActive(false)}>Close</button>
       </Modal>
     </>
